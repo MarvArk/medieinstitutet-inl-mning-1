@@ -6,10 +6,48 @@
   <title>welcome to my website</title> 
 </head>
 <body>
-    <h1> Why system development?</h1>
-    <p> System development in combination with network engineering skills is lethal! and <strong>FUN </strong>.
+    <header>
+
+      <h1>
+                    <img src="images/sys-dev.webp" alt="Website logo" width="80">
+        Welcome to my website </h1>  
+        <div class="search">   
+            <form action="" method="get">
+                <label for="search">Search</label>
+                <input type="search" id="search" name="search" placeholder="Search here" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div> 
+    <nav> 
+        <ul>
+        <li> <a href="#cloud-engineering"> Cloud engineering </a></li>
+        <li> <a href="#requirements"> Requirements </a></li>
+        <li> <a href="#where-to-start"> Where to start </a></li>
+        <li> <a  href="#some-tips">Some tips regarding network engineering </a></li>
+        </ul>
+    </nav>
+    
+    </header>
+
+    <main>
+        <article>
+            <h2> Why chasing both network engineering and devops?</h2>
+
+            <figure> <img src="images/why-devops.webp" alt="devops image">
+            <figcaption>Devops importance</figcaption></figure>
+
+            <p> <span>System development in with network engineering skills is lethal!</span> and <strong>FUN </strong>.
     Always wanted to understand more of what layer 4 and 5 and beyond in the OSI models are. because the real fun is in 
     what severals call <em> cloud engineering. </em></p>
+    <button class="show-more">show more</button>
+        </article>
+
+    <section id="cloud-engineering">
+                        <figure>
+                <img src="images/why-cloud.webp" alt="cloud engineering image">
+                <figcaption>Cloud engineering</figcaption>
+            </figure>
+            <h2> Cloud Engineering.</h2>
 
     <dl>
         <dt> Cloud engineering</dt>
@@ -18,6 +56,12 @@
              digital infrastructure on remote
               platforms instead of physical, local servers.</dd>
     </dl>
+    </section>
+    <section id="requirements">
+        <figure>
+            <img src="images/Cloud_Engineer_Skills.png" alt="cloud engineering skills image.">
+            <figcaption>Cloud engineering required skills.</figcaption>
+        </figure>
     <h2> Many wonder what are the requirements to be a cloud engineer!</h2>
     <h3> Here are a few!</h3>
     <ul>
@@ -26,6 +70,9 @@
         <li> A good understanding of linux and other tools like docker.</li>
         <li> Ability to understand and built costume APIs and tools and much more.</li>
     </ul>
+    </section>
+
+    <section id="where-to-start">
     <h2> Where to start!</h2>
     <ol>
         <li>Be instersted in IT in general.</li>
@@ -33,7 +80,8 @@
         <li> don't be afriad to give it a try with some coding and clis.</li>
         <li> get familiar with different terms and apply for courses.</li>
     </ol>
-
+    </section>
+    <section id="some-tips">
     <h2> Here are some tips regarding netowrking.</h2>
     <ul>
         <li> there are several known networking academies that offer most of their courses for free. <a href="https://www.netacad.com/"> Cisco netacad.</a></li>
@@ -42,8 +90,51 @@
         <li><img src="https://www.cisco.com/c/dam/assets/support/product-images/series/switches-350x-series-stackable-managed-switches.jpg" alt="cisco switch image"> </li>
         <li> you can buy an old router like this one <a href="https://www.ebay.com/itm/305861079885?epid=1750720798&itmmeta=01M1T5HWFKFTX9WJZD0Y0XDEAM&hash=item4736bdb34d:g:8lAAAOSwfmBgNqEM&itmprp=enc%3AAQALAAAA4DKQclQvzFwZQpmMrsO4LurLvJgrxYlBuGUf4tcwPBPBxcGca3Tq03q2DXfRJ9LmvDAgbZnI6t%2FD2VUec124NjsStSdH%2FD7VeQ5b%2FcjEK2lmX3rHsK%2BO7AYnX707IryUv7aR5toD2EHzq%2BUNabHgyQJyeehSLtmvGCUPevfbyA1qApwS0%2B%2F5%2FF8%2BXoRl6SYPpL5pOiNo7nubepAwYV%2BY2tlHmSTn6J3c9i3itmvhlc9umLzgixG3g9xKQ2tSEJ3Vd8JyhV0joyWmjP2qPw2M9de7twCJHEx449IgAJzqFD5w%7Ctkp%3ABFBM9MfHxY5o"> <img src="images/cisco-router.jpg" alt="cisco router image"> </a></li>
     </ul>
+    </section>
+    <article>
     <h3> More infrastracture learning tools.</h3>
+    <p> Here are a few links and tools where you can acquire the knowledge to begin your journey.</p>
+    <p>And later if it's requested one could contact us to provide more links and tools.</p>
+     <button class="show-more">show more</button>
     <p> <a href="https://learningnetwork.cisco.com/s/question/0D53i00000Kt599CAB/download-packet-tracer"> <img src="images/cisco-packet.jpg" alt="cisco packet tracer image"></a> </p>
+    </article>
+
+    <aside>
+        <label for="more-info">More information</label>
+            <select id="more-info">
+                <option value="select-option">Select Your option</option>
+                <option value="disclaimer">Disclaimer</option>
+                <option value="your-privacy">Your privacy matters</option>
+                <option value="gdpr">GDPR and terms of service</option>
+        </select>
+    </aside>
+</main>
+<footer>
+    <h4> Visit me at</h4>
+    <ul>
+        <li><a href="https://github.com/MarvArk">github</a></li>
+        <li><a href="https://linkedin.com">Linkedin</a></li>
+        <li><a href="mailto:marwan.arkawi@medieinstitutet.se">Email</a></li>
+    </ul>
+    <h6>Leave your contact info</h6>
+    <form action="" method="post">
+        
+        <label for="username">Your name</label>
+        <input type="text" id="username" name="username" placeholder="Your name" required>
+
+        <label for="phone">Your phone number</label>
+        <input type="tel" id="phone" name="phone" placeholder="+467------" required>
+        <label for="email"> Your email</label>
+
+        <input type="email" id="email" name="email" placeholder="youremail@mail.com" required>
+
+        <label for="feedback">We value your feedback</label>
+        <textarea name="feedback" id="feedback" placeholder="Your feedback" rows="10"></textarea>
+
+        <button type="submit"> Submit</button>
+    </form>
+    <p> &copy; 2026 Marwan - All rights reserved.</p>
+</footer>
 </body>
 
 
