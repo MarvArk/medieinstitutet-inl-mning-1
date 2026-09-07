@@ -1,16 +1,27 @@
+<!-- starting with doc type and the universe contail of html -->
+
 <!DOCTYPE html>
-<html>  
+<!-- setting the language to english -->
+<html lang="en">  
 <head> 
+    <!-- inside the head tag  the head section where all the unseen data in the meta element is put incloding the encoding so the browser could read properly -->
+    <!-- the attribute viewport and content are set for phones and tablets to take the screen width and titles is what's shown on tab -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>welcome to my website</title> 
 </head>
 <body>
+    <!-- body the visible html element -->
+
     <header>
+         <!-- despite not being very semantic I decided to leave the image within the header so the image and the header appear next to each other -->
 
       <h1>
                     <img src="images/sys-dev.webp" alt="Website logo" width="80">
         Welcome to my website </h1>  
+        <!-- the div container is just for the future down the line and seperating the search section from other sections -->
+        <!-- very important!!! you will find action empty because there no server or url or api however later down the line one could a url later -->
+
         <div class="search">   
             <form action="" method="get">
                 <label for="search">Search</label>
@@ -18,6 +29,8 @@
                 <button type="submit">Submit</button>
             </form>
         </div> 
+        <!-- testing a navigation bar with anchored links for the sake of learning -->
+
     <nav> 
         <ul>
         <li> <a href="#cloud-engineering"> Cloud engineering </a></li>
@@ -30,7 +43,11 @@
     </header>
 
     <main>
+        <!-- you will find several articles and sections with lists testing different 
+         tags and methods and one aside section for the dropdown menu -->
+
         <article>
+             <!-- the button despite being nonfunctional was done according to the homework/inlämning -->
             <h2> Why chasing both network engineering and devops?</h2>
 
             <figure> <img src="images/why-devops.webp" alt="devops image">
@@ -57,6 +74,7 @@
               platforms instead of physical, local servers.</dd>
     </dl>
     </section>
+
     <section id="requirements">
         <figure>
             <img src="images/Cloud_Engineer_Skills.png" alt="cloud engineering skills image.">
@@ -92,6 +110,8 @@
     </ul>
     </section>
     <article>
+        <!-- the button despite being nonfunctional was done according to the homework/inlämning -->
+
     <h3> More infrastracture learning tools.</h3>
     <p> Here are a few links and tools where you can acquire the knowledge to begin your journey.</p>
     <p>And later if it's requested one could contact us to provide more links and tools.</p>
@@ -110,13 +130,16 @@
     </aside>
 </main>
 <footer>
+    <!-- left a few links in the footer 
+     and a section testing input methods and a copyright sign because it's fun -->
+
     <h4> Visit me at</h4>
     <ul>
         <li><a href="https://github.com/MarvArk">github</a></li>
         <li><a href="https://linkedin.com">Linkedin</a></li>
         <li><a href="mailto:marwan.arkawi@medieinstitutet.se">Email</a></li>
     </ul>
-    <h6>Leave your contact info</h6>
+    <h5>Leave your contact info</h5>
     <form action="" method="post">
         
         <label for="username">Your name</label>
